@@ -148,9 +148,9 @@ public class LoginActivity extends BaseActivity {
         super.onActivityResult(requestCode, resultCode, data);
         switch (requestCode) {
             case 2:
-                if (resultCode == RESULT_OK) {
-                    Toast.makeText(LoginActivity.this, data.getStringExtra("register_status"), Toast.LENGTH_SHORT).show();
-                }
+//                if (resultCode == RESULT_OK) {
+//                    Toast.makeText(LoginActivity.this, data.getStringExtra("register_status"), Toast.LENGTH_SHORT).show();
+//                }
                 break;
         }
     }

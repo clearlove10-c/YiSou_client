@@ -71,7 +71,7 @@ public class MainActivity extends BaseActivity {
     // 采用静态变量来存储当前登录的账号
     public static String currentUserId;
     //服务器IP地址
-    public static String serverUrl = "http://192.168.1.112:8080/yisounews";
+    public static String serverUrl = "http://124.221.253.19:8080/yisounews";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
